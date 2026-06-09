@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  background: rgba(10, 10, 30, 0.95);
+  border-left: 2px solid #00ffcc;
+  box-shadow: -5px 0 20px rgba(0, 255, 204, 0.2);
+  color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  font-family: 'Courier New', monospace;
+  overflow-y: auto;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #00ffcc;
+  padding-bottom: 10px;
+}
+
+.sidebar-header h2 {
+  margin: 0;
+  color: #00ffcc;
+  font-size: 1.5rem;
+}
+
+#close-sidebar {
+  background: transparent;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  transition: all 0.2s;
+  z-index: 1001;
+}
+
+#close-sidebar:hover {
+  background: #00ffcc;
+  color: #000000;
+}
+
+#sidebar-content {
+  margin-top: 10px;
+}
+
+#sidebar-content h3 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.distance {
+  font-family: 'Courier New', monospace;
+  color: #cccccc;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.bobs {
+  font-family: 'Courier New', monospace;
+  color: #00ffcc;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.lore {
+  color: #aaaaaa;
+  line-height: 1.5;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px dashed #333333;
+  font-size: 0.9rem;
+}
+
+/* Planets section styles */
+.planets-section {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px dashed #333333;
+}
+
+.planets-section h4 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.planets-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.planets-section li {
+  color: #cccccc;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border-left: 2px solid #00ffcc;
+}
+
+/* Trails section styles */
+.trails-section {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px dashed #333333;
+}
+
+.trails-section h4 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Mission Card Base Style */
+.mission-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.mission-card:hover {
+  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mission Card Direction Colors - border-left */
+.mission-card.inbound {
+  border-left-color: #4caf50;
+}
+
+.mission-card.outbound {
+  border-left-color: #ffeb3b;
+}
+
+/* Tag System */
+.tag {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.tag-discovery {
+  background: #ff3366;
+  color: #ffffff;
+}
+
+.tag-inbound {
+  background: #4caf50;
+  color: white;
+}
+
+.tag-outbound {
+  background: #ffeb3b;
+  color: black;
+}
+
+/* Mission Card Header: Traveler + Year */
+.mission-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+/* Log Label/Value System */
+.log-label {
+  font-weight: bold;
+  color: #aaaaaa;
+  margin-right: 4px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.log-value {
+  color: #dddddd;
+  font-size: 0.85rem;
+}
+
+/* Mission Card Note Text */
+.log-note {
+  font-size: 0.75rem;
+  color: #888888;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+/* Search Container - Bob-Net Aesthetic */
+#search-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  z-index: 999;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px 12px;
+  background: rgba(10, 10, 30, 0.95);
+  border: 2px solid #00ffcc;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s;
+}
+
+#search-input:focus {
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
+
+#search-input::placeholder {
+  color: #666666;
+}
+
+#search-results {
+  max-height: 300px;
+  overflow-y: auto;
+  background: rgba(10, 10, 30, 0.98);
+  border: 1px solid #00ffcc;
+  border-top: none;
+  display: none;
+  margin-top: -1px;
+}
+
+#search-results.active {
+  display: block;
+}
+
+#search-results::-webkit-scrollbar {
+  width: 6px;
+}
+
+#search-results::-webkit-scrollbar-track {
+  background: rgba(0, 255, 204, 0.1);
+}
+
+#search-results::-webkit-scrollbar-thumb {
+  background: #00ffcc;
+  border-radius: 3px;
+}
+
+.search-result-item {
+  padding: 10px 12px;
+  color: #cccccc;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(0, 255, 204, 0.15);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.search-result-item:hover {
+  background: rgba(0, 255, 204, 0.1);
+  color: #00ffcc;
+  padding-left: 15px;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+/* Timeline Container - Bottom Center */
+#timeline-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  background: rgba(10, 10, 30, 0.95);
+  border: 2px solid #00ffcc;
+  z-index: 998;
+  font-family: 'Courier New', monospace;
+}
+
+#timeline-label {
+  color: #00ffcc;
+  font-size: 1rem;
+  min-width: 50px;
+  text-align: center;
+}
+
+#timeline-slider {
+  width: 300px;
+  height: 6px;
+  -webkit-appearance: none;
+  background: rgba(0, 255, 204, 0.2);
+  border-radius: 3px;
+  outline: none;
+}
+
+#timeline-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #00ffcc;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+#timeline-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #00ffcc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#toggle-routes {
+  background: transparent;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+#toggle-routes:hover {
+  background: #00ffcc;
+  color: #000000;
+}
+
+#toggle-routes.active {
+  background: #00ffcc;
+  color: #000000;
+}

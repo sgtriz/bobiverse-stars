@@ -1,0 +1,154 @@
+[
+  {
+    "systemId": "sol",
+    "name": "Mercury",
+    "orbit": 0.5
+  },
+  {
+    "systemId": "sol",
+    "name": "Venus",
+    "orbit": 0.6
+  },
+  {
+    "systemId": "sol",
+    "name": "Earth",
+    "orbit": 0.7,
+    "lore": "Original home of humanity, later scoured by The Others."
+  },
+  {
+    "systemId": "sol",
+    "name": "Mars",
+    "orbit": 0.8
+  },
+  {
+    "systemId": "sol",
+    "name": "Jupiter",
+    "orbit": 1.0
+  },
+  {
+    "systemId": "sol",
+    "name": "Saturn",
+    "orbit": 1.2
+  },
+  {
+    "systemId": "sol",
+    "name": "Uranus",
+    "orbit": 1.4
+  },
+  {
+    "systemId": "sol",
+    "name": "Neptune",
+    "orbit": 1.6
+  },
+  {
+    "systemId": "epsilon_eridani",
+    "name": "Ragnarok (Habitable moon of EE-3)",
+    "orbit": 2.0,
+    "isSkunkworksHub": true
+  },
+  {
+    "systemId": "epsilon_indi",
+    "name": "Big Top (Jovian)",
+    "orbit": 3.0
+  },
+  {
+    "systemId": "epsilon_indi",
+    "name": "Klown Kar planet",
+    "orbit": 4.0
+  },
+  {
+    "systemId": "omicron_eridani",
+    "name": "Vulcan",
+    "orbit": 0.7,
+    "lore": "Habitable world discovered by Milo."
+  },
+  {
+    "systemId": "omicron_eridani",
+    "name": "Romulus",
+    "orbit": 0.9,
+    "lore": "Twin habitable planet to Vulcan."
+  },
+  {
+    "systemId": "eta_cassiopeiae",
+    "name": "Poseidon (Eta Cassiopeiae 3)",
+    "orbit": 2.5,
+    "lore": "A water world that becomes a significant human colony."
+  },
+  {
+    "systemId": "82_eridani",
+    "name": "Takamagahara",
+    "orbit": 1.8,
+    "lore": "Colonized by Japanese and Canadian enclaves."
+  },
+  {
+    "systemId": "delta_pavonis",
+    "name": "Delta Pavonis 4 (Old Pav)",
+    "orbit": 1.2,
+    "lore": "Original home world of the Pav, harvested by The Others."
+  },
+  {
+    "systemId": "delta_eridani",
+    "name": "Eden (Habitable Zone world)",
+    "orbit": 1.5,
+    "lore": "Home world of the Deltans, who called Bob Bawbe."
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Eta Leporis 1",
+    "orbit": 1.0
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Eta Leporis 2 (Quin)",
+    "orbit": 1.5,
+    "lore": "Once habitable, now a dead wasteland ruined by global warfare."
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Eta Leporis 3",
+    "orbit": 2.0,
+    "lore": "A habitable planet orbiting just outside the Heaven's River megastructure."
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Eta Leporis 4",
+    "orbit": 2.5
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Eta Leporis 5",
+    "orbit": 3.0
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Eta Leporis 6",
+    "orbit": 3.5
+  },
+  {
+    "systemId": "eta_leporis",
+    "name": "Heavens River",
+    "orbit": 3.25,
+    "type": "Topopolis",
+    "lore": "A billion-mile long torus knot megastructure built to evacuate Quinlan survivors.",
+    "towns": [
+      "Cedar Rapids",
+      "Elbow",
+      "Forest Hill",
+      "Galen Town",
+      "Garacks Spine",
+      "Haleps Ending",
+      "High Ridge",
+      "Little Creek",
+      "Misty Falls",
+      "Six Hills",
+      "Three Lagoons",
+      "Transit"
+    ]
+  },
+  {
+    "systemId": "hip_84051",
+    "name": "New Pav",
+    "orbit": 1.2,
+    "lore": "Colony world for 20000 rescued Pav survivors."
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "from": "Sol",
+    "to": "Epsilon Eridani",
+    "traveler": "Bob One",
+    "dates": "2133 - 2144",
+    "note": "First interstellar flight; Bob escapes Earth.",
+    "maidenVoyage": true,
+    "startYear": 2133,
+    "endYear": 2144
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Eta Cassiopeiae",
+    "traveler": "Mulder",
+    "dates": "Early",
+    "note": "Mapped during early Skunk Works sweeps. Home to the water world Poseidon.",
+    "maidenVoyage": true,
+    "startYear": 2170,
+    "endYear": 2170
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Pi3 Orionis",
+    "traveler": "Bill (Recon Probe)",
+    "dates": "Early",
+    "note": "Peripheral reconnaissance mission to expand the Bobnet tactical perimeter.",
+    "maidenVoyage": true,
+    "startYear": 2140,
+    "endYear": 2140
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Omicron2 Eridani",
+    "traveler": "Milo",
+    "dates": "2145 - 2152",
+    "note": "Milo discovers Vulcan and Romulus.",
+    "maidenVoyage": true,
+    "startYear": 2145,
+    "endYear": 2152
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Delta Eridani",
+    "traveler": "Bob One",
+    "dates": "2145 - 2166",
+    "note": "Bob One explores Delta Eridani and discovers the Deltans.",
+    "maidenVoyage": true,
+    "startYear": 2145,
+    "endYear": 2166
+  },
+  {
+    "from": "Delta Eridani",
+    "to": "Eta Leporis",
+    "traveler": "Bender",
+    "dates": "",
+    "note": "The Great Mystery: Bender arrived first but went missing without reporting back.",
+    "maidenVoyage": true,
+    "startYear": 2145,
+    "endYear": 2145
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Beta Hydri",
+    "traveler": "Mario",
+    "dates": "2145 - 2169",
+    "note": "Mario finds evidence of the Others' metal stripping.",
+    "maidenVoyage": true,
+    "startYear": 2145,
+    "endYear": 2169
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Sol",
+    "traveler": "Riker & Homer",
+    "dates": "2145 - 2157",
+    "note": "Return to Earth to save the remnants of humanity.",
+    "maidenVoyage": false,
+    "startYear": 2145,
+    "endYear": 2157
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Alpha Centauri",
+    "traveler": "Calvin & Goku",
+    "dates": "2150 - 2163",
+    "note": "Destruction of the Brazilian autofactory.",
+    "maidenVoyage": true,
+    "startYear": 2150,
+    "endYear": 2163
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Epsilon Indi",
+    "traveler": "Linus",
+    "dates": "2150 - 2178",
+    "note": "First exploration of the Klown Kar Planet.",
+    "maidenVoyage": true,
+    "startYear": 2150,
+    "endYear": 2178
+  },
+  {
+    "from": "Omicron2 Eridani",
+    "to": "82 Eridani",
+    "traveler": "Milo",
+    "dates": "2153 - 2165",
+    "note": "Milo's probe is destroyed by Medeiros' traps.",
+    "maidenVoyage": true,
+    "startYear": 2153,
+    "endYear": 2165
+  },
+  {
+    "from": "Delta Eridani",
+    "to": "Kappa Ceti",
+    "traveler": "Luke",
+    "dates": "2165",
+    "note": "Luke expands into Kappa Ceti.",
+    "maidenVoyage": true,
+    "startYear": 2165,
+    "endYear": 2165
+  },
+  {
+    "from": "Delta Eridani",
+    "to": "Gamma Leporis",
+    "traveler": "Bender",
+    "dates": "2165",
+    "note": "Bender goes missing, leading to future searches.",
+    "maidenVoyage": false,
+    "startYear": 2165,
+    "endYear": 2165
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Zeta Tucanae",
+    "traveler": "Mario",
+    "dates": "2176",
+    "note": "Mario logs the Zeta Tucanae system.",
+    "maidenVoyage": true,
+    "startYear": 2176,
+    "endYear": 2176
+  },
+  {
+    "from": "Beta Hydri",
+    "to": "Zeta Tucanae",
+    "traveler": "Mario",
+    "dates": "2176",
+    "note": "Mario logs the Zeta Tucanae system.",
+    "maidenVoyage": false,
+    "startYear": 2176,
+    "endYear": 2176
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Gliese 54",
+    "traveler": "Mario",
+    "dates": "2180",
+    "note": "Mario sets up orbital stations to watch for the Others.",
+    "maidenVoyage": true,
+    "startYear": 2180,
+    "endYear": 2180
+  },
+  {
+    "from": "Beta Hydri",
+    "to": "Gliese 54",
+    "traveler": "Mario",
+    "dates": "2180",
+    "note": "Mario sets up orbital stations to watch for the Others.",
+    "maidenVoyage": false,
+    "startYear": 2180,
+    "endYear": 2180
+  },
+  {
+    "from": "Omicron2 Eridani",
+    "to": "HIP 14101",
+    "traveler": "Howard",
+    "dates": "~2210s",
+    "note": "This system was Howard's destination after leaving Vulcan. The journey took about 20 years, and he arrived in 2210.",
+    "maidenVoyage": true,
+    "startYear": 2190,
+    "endYear": 2210
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Delta Pavonis",
+    "traveler": "Jacques",
+    "dates": "2206+",
+    "note": "Jacques arrives in 2206 and discovers the Pav. Later clones Phineas and Ferb.",
+    "maidenVoyage": true,
+    "startYear": 2206,
+    "endYear": 2206
+  },
+  {
+    "from": "Delta Pavonis",
+    "to": "HIP 84051",
+    "traveler": "Jacques",
+    "dates": "~2210s",
+    "note": "The Pav Exodus: Rescuing 20,000 Pav and relocating them to New Pav.",
+    "maidenVoyage": true,
+    "startYear": 2210,
+    "endYear": 2210
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Gliese 877",
+    "traveler": "Icarus & Daedalus",
+    "dates": "Multi-decade",
+    "note": "Strategic deployment of Skunk Works specialized probes.",
+    "maidenVoyage": true,
+    "startYear": 2220,
+    "endYear": 2220
+  },
+  {
+    "from": "Epsilon Eridani",
+    "to": "Sagittarius A*",
+    "traveler": "Icarus & Daedalus",
+    "dates": "Multi-decade",
+    "note": "A massive multi-decade journey to the galactic center to study the supermassive black hole.",
+    "maidenVoyage": true,
+    "startYear": 2220,
+    "endYear": 2220
+  },
+  {
+    "from": "Eta Leporis",
+    "to": "Delta Eridani",
+    "traveler": "Bob One",
+    "dates": "2331",
+    "note": "Bob One arrives in 2331 tracking Bender's original trail.",
+    "maidenVoyage": false,
+    "startYear": 2331,
+    "endYear": 2331
+  }
+]

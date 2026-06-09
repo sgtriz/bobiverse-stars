@@ -1,0 +1,321 @@
+[
+  {
+    "id": "sol",
+    "name": "Sol",
+    "dist": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "color": "#ffeb3b",
+    "lore": "Bob origin system. Project HEAVEN launched here. Earth evacuated.",
+    "bobs": [
+      "Bob (original)",
+      "Riker"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "alpha_centauri",
+    "name": "Alpha Centauri",
+    "dist": 4.37,
+    "x": -1.63,
+    "y": -1.37,
+    "z": -3.82,
+    "color": "#ffffff",
+    "lore": "Explored by USE probe, later conquered by Calvin and Goku.",
+    "bobs": [
+      "Calvin",
+      "Goku"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0,
+    "threatLevel": "brazilian"
+  },
+  {
+    "id": "epsilon_eridani",
+    "name": "Epsilon Eridani",
+    "dist": 10.52,
+    "x": 6.21,
+    "y": 8.31,
+    "z": -1.73,
+    "color": "#ff9800",
+    "lore": "Site of first Bob clone creations. Bill established Skunk Works base here.",
+    "bobs": [
+      "Bill",
+      "Garfield",
+      "Linus"
+    ],
+    "size_class": "medium",
+    "isSkunkWorks": true,
+    "orbitScale": 0.4
+  },
+  {
+    "id": "epsilon_indi",
+    "name": "Epsilon Indi",
+    "dist": 11.8,
+    "x": 5.64,
+    "y": -3.15,
+    "z": -9.87,
+    "color": "#ffb74d",
+    "lore": "Briefly explored by Goku.",
+    "bobs": [
+      "Goku"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "omicron_eridani",
+    "name": "Omicron2 Eridani",
+    "dist": 16.3,
+    "x": 7.13,
+    "y": 14.5,
+    "z": -2.17,
+    "color": "#fff176",
+    "lore": "Milo discovered Vulcan and Romulus here.",
+    "bobs": [
+      "Milo"
+    ],
+    "size_class": "large",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "eta_cassiopeiae",
+    "name": "Eta Cassiopeiae",
+    "dist": 19.42,
+    "x": 10.11,
+    "y": 2.2,
+    "z": 16.44,
+    "color": "#81d4fa",
+    "lore": "Features Eta Cassiopeiae 3.",
+    "bobs": [
+      "N/A"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "82_eridani",
+    "name": "82 Eridani",
+    "dist": 19.7,
+    "x": 9.25,
+    "y": 11.02,
+    "z": -13.45,
+    "color": "#ffee58",
+    "lore": "Colonized by Japanese and Canadian enclaves.",
+    "bobs": [
+      "Isaac",
+      "Jack",
+      "Owen"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0,
+    "threatLevel": "brazilian"
+  },
+  {
+    "id": "delta_pavonis",
+    "name": "Delta Pavonis",
+    "dist": 19.9,
+    "x": 4.28,
+    "y": -6.8,
+    "z": -18.21,
+    "color": "#ffeb3b",
+    "lore": "Original home of the Pav.",
+    "bobs": [
+      "Jacques",
+      "Phineas",
+      "Ferb"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0,
+    "threatLevel": "others"
+  },
+  {
+    "id": "beta_hydri",
+    "name": "Beta Hydri",
+    "dist": 24.33,
+    "x": 5.33,
+    "y": 0.6,
+    "z": -23.73,
+    "color": "#fff59d",
+    "lore": "Mario found Others evidence here.",
+    "bobs": [
+      "Mario"
+    ],
+    "size_class": "large",
+    "orbitScale": 1.0,
+    "threatLevel": "others"
+  },
+  {
+    "id": "pi3_orionis",
+    "name": "Pi3 Orionis",
+    "dist": 26.32,
+    "x": 7.87,
+    "y": 24.91,
+    "z": 3.19,
+    "color": "#ffffff",
+    "lore": "Bobnet reconnaissance system.",
+    "bobs": [
+      "N/A"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "gliese_54",
+    "name": "Gliese 54",
+    "dist": 26.64,
+    "x": 9.74,
+    "y": 3.09,
+    "z": -24.6,
+    "color": "#ef5350",
+    "lore": "Red dwarf star.",
+    "bobs": [
+      "N/A"
+    ],
+    "size_class": "small",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "zeta_tucanae",
+    "name": "Zeta Tucanae",
+    "dist": 28.07,
+    "x": 11.87,
+    "y": 1.04,
+    "z": -25.41,
+    "color": "#ffee58",
+    "lore": "Visited by Mario.",
+    "bobs": [
+      "Mario"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "gliese_877",
+    "name": "Gliese 877",
+    "dist": 28.1,
+    "x": 26.09,
+    "y": -7.82,
+    "z": -6.92,
+    "color": "#ef5350",
+    "lore": "Skunk Works deployments here.",
+    "bobs": [
+      "Icarus",
+      "Daedalus"
+    ],
+    "size_class": "small",
+    "isSkunkWorks": true,
+    "orbitScale": 1.0
+  },
+  {
+    "id": "delta_eridani",
+    "name": "Delta Eridani",
+    "dist": 29.5,
+    "x": 16.34,
+    "y": 24.05,
+    "z": -5.0,
+    "color": "#ffeb3b",
+    "lore": "Home of the Deltans.",
+    "bobs": [
+      "Bob (original)"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "kappa_ceti",
+    "name": "Kappa Ceti",
+    "dist": 29.8,
+    "x": 19.19,
+    "y": 22.74,
+    "z": 1.75,
+    "color": "#ffeb3b",
+    "lore": "Mapped system.",
+    "bobs": [
+      "N/A"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "eta_leporis",
+    "name": "Eta Leporis",
+    "dist": 48.5,
+    "x": 0.74,
+    "y": 47.02,
+    "z": -11.87,
+    "color": "#e0f7fa",
+    "lore": "Bender arrived first, went missing. Bob One followed.",
+    "bobs": [
+      "Bender",
+      "Bob One"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.5
+  },
+  {
+    "id": "nn_4285",
+    "name": "NN 4285",
+    "dist": 130,
+    "x": 47.1,
+    "y": -95.51,
+    "z": -74.56,
+    "color": "#ef5350",
+    "lore": "Outer system scouted.",
+    "bobs": [
+      "N/A"
+    ],
+    "size_class": "small",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "hip_14101",
+    "name": "HIP 14101",
+    "dist": 22.6,
+    "x": 22.34,
+    "y": 22.74,
+    "z": -22.75,
+    "color": "#ffcc80",
+    "lore": "Deep space system.",
+    "bobs": [
+      "N/A"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "hip_84051",
+    "name": "HIP 84051",
+    "dist": 140,
+    "x": -21.92,
+    "y": -89.3,
+    "z": -86.22,
+    "color": "#ffee58",
+    "lore": "New Pav system.",
+    "bobs": [
+      "Phineas",
+      "Ferb",
+      "Jacques"
+    ],
+    "size_class": "medium",
+    "orbitScale": 1.0
+  },
+  {
+    "id": "sagittarius_a",
+    "name": "Sagittarius A*",
+    "dist": 100,
+    "x": -5.46,
+    "y": -137.28,
+    "z": -78.49,
+    "color": "#ffaa00",
+    "lore": "Supermassive black hole at galaxy center.",
+    "bobs": [
+      "Icarus",
+      "Daedalus"
+    ],
+    "size_class": "supermassive",
+    "orbitScale": 1.0
+  }
+]
