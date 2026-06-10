@@ -288,10 +288,10 @@
   {
     "id": "hip_84051",
     "name": "HIP 84051",
-    "dist": 140,
+    "dist": 40,
     "x": -21.92,
-    "y": -89.3,
-    "z": -86.22,
+    "y": -40.3,
+    "z": -40.22,
     "color": "#ffee58",
     "lore": "New Pav system.",
     "bobs": [
@@ -305,10 +305,10 @@
   {
     "id": "sagittarius_a",
     "name": "Sagittarius A*",
-    "dist": 100,
+    "dist": 27000,
     "x": -5.46,
-    "y": -137.28,
-    "z": -78.49,
+    "y": -260.28,
+    "z": -2600.49,
     "color": "#ffaa00",
     "lore": "Supermassive black hole at galaxy center.",
     "bobs": [

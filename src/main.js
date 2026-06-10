@@ -336,11 +336,11 @@ systems.forEach(system => {
 drawExplorationTrails();
 
 // Background starfield (scaled to match)
-const starCount = 6000; // Doubled from 3000 for expanded universe
+const starCount = 18000; // 3x more stars for 10x larger field
 const starGeometry = new THREE.BufferGeometry();
 const starPositions = new Float32Array(starCount * 3);
 for (let i = 0; i < starCount * 3; i += 3) {
-  const distance = (100 + Math.random() * 400) * SCALE_FACTOR;
+  const distance = (150 + Math.random() * 4000) * SCALE_FACTOR; // 10x bigger field
   const theta = Math.random() * Math.PI * 2;
   const phi = Math.acos(2 * Math.random() - 1);
   starPositions[i] = distance * Math.sin(phi) * Math.cos(theta);
@@ -365,7 +365,6 @@ function createDustTexture() {
   return new THREE.CanvasTexture(canvas);
 }
 
-const dustCount = 150; // Doubled from 75 for expanded universe
 const dustTexture = createDustTexture();
 const dustMaterial = new THREE.SpriteMaterial({
   map: dustTexture,
@@ -374,14 +373,15 @@ const dustMaterial = new THREE.SpriteMaterial({
   opacity: 0.05,
   depthWrite: false // Prevent z-fighting
 });
+const dustCount = 450; // 3x more dust for 10x larger field
 
 for (let i = 0; i < dustCount; i++) {
   const sprite = new THREE.Sprite(dustMaterial);
-  // Random position in expanded scene bounds
+  // Random position in 10x expanded scene bounds
   sprite.position.set(
-    (Math.random() - 0.5) * 200 * SCALE_FACTOR,
-    (Math.random() - 0.5) * 200 * SCALE_FACTOR,
-    (Math.random() - 0.5) * 200 * SCALE_FACTOR
+    (Math.random() - 0.5) * 2000 * SCALE_FACTOR, // 10x bigger
+    (Math.random() - 0.5) * 2000 * SCALE_FACTOR,
+    (Math.random() - 0.5) * 2000 * SCALE_FACTOR
   );
   // Large size for visibility
   const size = 10 + Math.random() * 10;
@@ -409,8 +409,8 @@ function createNebulae() {
     0x7b68ee  // Medium Slate Blue
   ];
   
-  const spriteCount = 8 + Math.floor(seededRandom() * 5); // 8-12 sprites (MORE nebulas)
-  
+  const spriteCount = 16 + Math.floor(seededRandom() * 10); // 16-26 sprites (doubled)
+
   for (let i = 0; i < spriteCount; i++) {
     const material = new THREE.SpriteMaterial({
       map: nebulaTexture,
@@ -424,8 +424,8 @@ function createNebulae() {
     const sprite = new THREE.Sprite(material);
     sprite.renderOrder = -1; // Render first (as backdrop)
     
-    // Random position far from center (doubled: 800-1600 units)
-    const distance = 800 + seededRandom() * 800;
+    // Random position far from center (2x farther: 8000-16000 units)
+    const distance = 8000 + seededRandom() * 8000;
     const theta = seededRandom() * Math.PI * 2;
     const phi = Math.acos(2 * seededRandom() - 1);
     sprite.position.set(
@@ -434,8 +434,8 @@ function createNebulae() {
       distance * Math.cos(phi)
     );
     
-    // Large scale (increased 1.5x: 750x750)
-    sprite.scale.set(750, 750, 1);
+    // Large scale (5x bigger: 3750x3750)
+    sprite.scale.set(3750, 3750, 1);
     
     sprite.material.rotation = seededRandom() * Math.PI;
     
