@@ -120,42 +120,22 @@
     "endYear": 2179
   },
   {
-    "from": "Epsilon Eridani",
-    "to": "Zeta Tucanae",
-    "traveler": "Mario",
-    "dates": "2176",
-    "note": "Mario logs the Zeta Tucanae system.",
-    "maidenVoyage": true,
-    "startYear": 2176,
-    "endYear": 2176
-  },
-  {
     "from": "Beta Hydri",
     "to": "Zeta Tucanae",
     "traveler": "Mario",
     "dates": "2176",
     "note": "Mario logs the Zeta Tucanae system.",
-    "maidenVoyage": false,
-    "startYear": 2176,
+    "maidenVoyage": true,
+    "startYear": 2169,
     "endYear": 2176
   },
   {
-    "from": "Epsilon Eridani",
+    "from": "Zeta Tucanae",
     "to": "Gliese 54",
     "traveler": "Mario",
     "dates": "2180",
     "note": "Mario sets up orbital stations to watch for the Others.",
     "maidenVoyage": true,
-    "startYear": 2180,
-    "endYear": 2180
-  },
-  {
-    "from": "Beta Hydri",
-    "to": "Gliese 54",
-    "traveler": "Mario",
-    "dates": "2180",
-    "note": "Mario sets up orbital stations to watch for the Others.",
-    "maidenVoyage": false,
     "startYear": 2180,
     "endYear": 2180
   },
