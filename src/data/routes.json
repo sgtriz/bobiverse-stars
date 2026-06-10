@@ -20,14 +20,14 @@
     "endYear": 2170
   },
   {
-    "from": "Epsilon Eridani",
+    "from": "Delta Eridani",
     "to": "Pi3 Orionis",
-    "traveler": "Bill (Recon Probe)",
+    "traveler": "Marvin",
     "dates": "Early",
     "note": "Peripheral reconnaissance mission to expand the Bobnet tactical perimeter.",
     "maidenVoyage": true,
-    "startYear": 2140,
-    "endYear": 2140
+    "startYear": 2174,
+    "endYear": 2174
   },
   {
     "from": "Epsilon Eridani",
@@ -47,7 +47,7 @@
     "note": "Bob One explores Delta Eridani and discovers the Deltans.",
     "maidenVoyage": true,
     "startYear": 2145,
-    "endYear": 2166
+    "endYear": 2165
   },
   {
     "from": "Delta Eridani",
@@ -56,8 +56,8 @@
     "dates": "",
     "note": "The Great Mystery: Bender arrived first but went missing without reporting back.",
     "maidenVoyage": true,
-    "startYear": 2145,
-    "endYear": 2145
+    "startYear": 2165,
+    "endYear": 2165
   },
   {
     "from": "Epsilon Eridani",
@@ -116,18 +116,8 @@
     "dates": "2165",
     "note": "Luke expands into Kappa Ceti.",
     "maidenVoyage": true,
-    "startYear": 2165,
-    "endYear": 2165
-  },
-  {
-    "from": "Delta Eridani",
-    "to": "Gamma Leporis",
-    "traveler": "Bender",
-    "dates": "2165",
-    "note": "Bender goes missing, leading to future searches.",
-    "maidenVoyage": false,
-    "startYear": 2165,
-    "endYear": 2165
+    "startYear": 2179,
+    "endYear": 2179
   },
   {
     "from": "Epsilon Eridani",

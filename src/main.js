@@ -453,6 +453,24 @@ let isAnimating = false;
 const sidebar = document.getElementById('system-sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
 const closeSidebarBtn = document.getElementById('close-sidebar');
+const helpBtn = document.getElementById('help-btn');
+const helpModal = document.getElementById('help-modal');
+const closeHelpBtn = document.getElementById('close-help');
+
+// Show help modal on every page load
+window.addEventListener('load', () => {
+  helpModal.classList.add('active');
+});
+
+// Close help modal
+closeHelpBtn.addEventListener('click', () => {
+  helpModal.classList.remove('active');
+});
+
+// Help button opens modal
+helpBtn.addEventListener('click', () => {
+  helpModal.classList.add('active');
+});
 
 // Clear all planets from scene
 function clearPlanets() {

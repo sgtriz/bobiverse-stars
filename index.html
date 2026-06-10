@@ -17,6 +17,41 @@
       <button id="toggle-routes">Toggle Routes</button>
     </div>
     <div id="app"></div>
+
+    <!-- Help Button -->
+    <button id="help-btn" title="Controls & Navigation">?</button>
+
+    <!-- Help Modal -->
+    <div id="help-modal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Controls & Navigation</h2>
+          <button id="close-help">Close [X]</button>
+        </div>
+        <div class="modal-body">
+          <p class="welcome-text"><strong>Welcome to the Bobiverse Explorer!</strong></p>
+          <div class="controls-grid">
+            <div class="control-row">
+              <kbd class="hud-key">Left Click + Drag</kbd>
+              <span class="hud-action">Rotate Tactical Matrix</span>
+            </div>
+            <div class="control-row">
+              <kbd class="hud-key">Right Click + Drag</kbd>
+              <span class="hud-action">Pan Navigation Grid</span>
+            </div>
+            <div class="control-row">
+              <kbd class="hud-key">Scroll Wheel</kbd>
+              <span class="hud-action">Zoom Optics</span>
+            </div>
+            <div class="control-row">
+              <kbd class="hud-key">Click Star</kbd>
+              <span class="hud-action">Open System Telemetry</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="system-sidebar" class="sidebar">
       <div class="sidebar-header">
         <h2>Star System</h2>
